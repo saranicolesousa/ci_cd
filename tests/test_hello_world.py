@@ -17,4 +17,4 @@ class TestHelloWorld(TestCase):
         self.assertEqual(HelloWorld(name="José").say_bye(from_who="Andreia"), "Andreia said by to José.")
 
     def test_is_girl(self):
-        self.assertTrue(HelloWorld(gender="F").say_hello(), "F")
+        self.assertTrue(HelloWorld(gender="F").is_girl(), "F")
